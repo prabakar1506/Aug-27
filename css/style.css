@@ -1,0 +1,40 @@
+     *{ 
+       margin:0px;
+       padding:0px;	
+      }
+header{
+	   Background-color:#008383;
+	   padding:10px;
+	  }
+	   
+header a{
+	     color:white;
+		 padding:40px;
+		 margin:px;
+		 text-decoration:none;
+        }
+    body{
+	   background-color:#008374;
+        }
+ .text a{
+	     text-decoration:none;
+		 margin-left:30px;
+		 font-size:20px;
+		 display:column;
+		 color:white;
+        }
+     nav{
+		 padding:30px;
+       	 margin-top:10px;
+        }
+.text .home{
+	        margin-left:400px;
+           }
+    section{
+			  /*background-image:url(./hero-img.svg);*/
+			  background-repeat:no-repeat;
+			  height:100%;
+			  margin-top:100px;
+			  margin-left:680px;
+		   }
+ 
