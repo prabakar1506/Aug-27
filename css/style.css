@@ -1,40 +1,133 @@
-     *{ 
-       margin:0px;
-       padding:0px;	
-      }
-header{
-	   Background-color:#008383;
-	   padding:10px;
-	  }
-	   
+*{
+  margin:0px;
+ }
+ header{ 
+         background-color:#00796b;
+		 padding:10px;
+		 display:flex;
+	    }
 header a{
-	     color:white;
-		 padding:40px;
-		 margin:px;
-		 text-decoration:none;
-        }
-    body{
-	   background-color:#008374;
-        }
- .text a{
 	     text-decoration:none;
-		 margin-left:30px;
-		 font-size:20px;
-		 display:column;
-		 color:white;
-        }
+		 margin-left:40px;
+	     color:white;
+	    }
+	body{
+		
+	    }
      nav{
-		 padding:30px;
-       	 margin-top:10px;
+		  padding-top:30px;
+		  background-color:#008374;
+		 
+	    }
+  nav a {
+	     color:white;
+		 color:rgba(255, 255, 255, 0.6);
+		 text-decoration:none;
+		 padding:10px;
+		 font-size:20px;
+		
         }
-.text .home{
-	        margin-left:400px;
-           }
-    section{
-			  /*background-image:url(./hero-img.svg);*/
-			  background-repeat:no-repeat;
-			  height:100%;
-			  margin-top:100px;
-			  margin-left:680px;
-		   }
- 
+   .para{
+	     Margin-left:30px;
+		 font-weight:bolder;
+		 font-size:40px;
+		
+	     }
+    .home{
+		  margin-left:400px;
+	     }
+ .para span{
+	        color:red;
+			 
+		 }
+  section{
+	       display:flex;
+		   height:100vh;
+		   background-color:#008374;
+	 
+         }
+		 
+	.img{
+		 margin-left:100px;
+		 margin-right:100px;
+		 margin-top: 90px;
+		}
+.align{
+	    margin-top: 150px;
+		margin-left:100px;
+	 
+      }
+	.align  h1{
+		        font-size:40px;
+				color:white;
+	            }
+	    button{
+		       font-family: var(--font-primary);
+               font-weight: 500;
+               font-size: 20px;
+               letter-spacing: 1px;
+               padding: 14px 40px;
+               border-radius: 50px;
+               color: #fff;
+               background: rgba(255, 255, 255, 0.1);
+               box-shadow: 0 0 15px rgb(0 0 0 / 8%);
+               border: 2px solid rgba(255, 255, 255, 0.1);
+	         }
+	.align a{
+		     text-decoration:none;
+			 color:white;
+			  font-size:20px;
+			  margin-left:40px;
+		
+	        }
+	.align p{
+		     color:rgba(255, 255, 255, 0.6);
+			 font-size:17px;
+			 letter-spacing:1px;
+		
+	        } 
+	nav a:hover{
+		         color:white;
+		
+	}
+	section p:hover{
+		         color:white;
+		
+	}
+ nav a{
+   border: 1px solid transparent;
+   border-radius: 2px;
+} 
+nav a{
+  display: inline-block;
+  position: relative;
+  color:rgba(255, 255, 255, 0.6);
+
+}
+
+nav a:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color:red;
+
+  transform-origin: bottom left;
+  transition: transform 0.25s ease-out;
+}
+
+nav a:hover:after {
+  transform: scaleX(1);
+  transform-origin:bottom right;
+}
+ .green{
+        background-color:white;
+	    height:100vh;
+		border:1px solid green;
+		padding:60px;
+		
+       }
+
